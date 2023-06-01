@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,100&display=swap');
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff8f8;
+    line-height: 1.65;
+}
+section {
+    width: 80%;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+   
+  }
+.social-media{
+    margin-bottom: 80px;
+    padding: 5 15;
+    font-size: 40px;
+    cursor: pointer;  
+}
+.social-media i {
+    color: black;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+    
+    
+
+}
+.sidebar-dua{
+    width: 300px;
+    height: 550px;
+    margin: 25px auto;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #1f1d1d;
+    text-align:justify;
+    flex: 35%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+        
+}
+.sidebar-dua img{
+    width: 100%; 
+    border-radius: 10px 10px 0 0
+}
+
+.kolom-utama h2{
+    text-align: left;
+}
+.kolom-utama p{
+    text-align: justify;
+}
+   
+.kolom-utama{
+    flex: 65%;
+    margin-right: 50px;
+    padding: 0px;   
+}
+.download{
+    display: flex;
+    align-items: center;
+}
+.kontak-saya{
+    display: flex;
+    padding: 5px 5px;   
+}
+.satuuu{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    margin-right: 10px;  
+}
+.dua{
+    padding: 5px;
+    margin-left: 5px;    
+}
+.margin-gambar{
+    cursor: pointer;
+    padding: 5px;
+    align-items: center;   
+}
+.gambar-download{
+    padding: 5px;
+    cursor: pointer;
+}
+.sidebar-dua img{
+    width: 86%;
+    display: flex;
+    padding-top: 20px ;
+   
+}
+#barsmenu{
+    display: none;
+}
+.hamburger-nav-container{
+    font-size: 15px;
+    list-style-type: none;
+    display: none;
+}
+.hamburger-nav-container a{
+    text-decoration: none;
+    background-color: #fcf9f4;
+    display: flex;
+    color: #1f1e1d;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid rgb(248, 246, 243);
+    
+}
+.hamburger-nav-container .hamburger-active{
+    text-decoration: none;
+    background-color: #f1bd67;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid rgb(247, 213, 145);
+    
+}
+@media only screen and (max-width: 900px) {
+    #barsmenu {
+        display: block;
+    }
+
+    .item-collapse {
+        display: none;
+    }
+    section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .kolom-utama{
+        text-align: center;
+        margin-left: 50px;
+    }
+    .social-media{
+        margin-bottom: 10px;
+        padding: 5 15;
+        font-size: 40px;
+        cursor: pointer;  
+    }
+    
+    
+}

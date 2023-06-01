@@ -1,0 +1,5 @@
+div: untuk mempermudah melakukan grouping agar mempermudah kita melakukan styling 
+margin: jarak luar
+padding : jarak dalam
+
+https://zulnas.com/wp-content/uploads/2023/03/16789770061322944224228636931208_copy_800x520.jpg
